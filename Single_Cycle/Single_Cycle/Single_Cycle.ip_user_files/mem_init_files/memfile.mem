@@ -1,0 +1,16 @@
+00500293   // addi x5, x0, 5
+00600313   // addi x6, x0, 6
+0062E233   // or   x4, x5, x6
+006283B3   // add  x7, x5, x6
+40628433   // sub  x8, x5, x6
+0062F4B3   // and  x9, x5, x6
+0062C533   // xor  x10,x5,x6
+0062A5B3   // slt  x11,x5,x6
+00628663   // beq  x5,x6 (not taken)
+00500293   // addi x5, x0, 5
+00500313   // addi x6, x0, 5
+00628463   // beq  x5,x6 (taken)
+0062E233   // should be skipped
+006283B3   // should be skipped
+00502023   // sw x5,0(x0)
+00002403   // lw x8,0(x0)

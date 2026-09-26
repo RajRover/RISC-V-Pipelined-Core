@@ -1,0 +1,184 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Apr  6 19:15:50 2026
+# Process ID         : 27884
+# Current directory  : C:/RiscV/Single_Cycle/Single_Cycle
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent10456 C:\RiscV\Single_Cycle\Single_Cycle\Single_Cycle.xpr
+# Log file           : C:/RiscV/Single_Cycle/Single_Cycle/vivado.log
+# Journal file       : C:/RiscV/Single_Cycle/Single_Cycle\vivado.jou
+# Running On         : LAPTOP-OUHRQ36P
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 7435HS                             
+# CPU Frequency      : 3094 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16989 MB
+# Swap memory        : 8321 MB
+# Total Virtual      : 25311 MB
+# Available Virtual  : 15803 MB
+#-----------------------------------------------------------
+start_gui
+open_project -part xc7z010iclg225-1L C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.xpr
+INFO: [Project 1-563] Overriding project part, 'xc7vx485tffg1157-1', with new part: 'xc7z010iclg225-1L'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.gen/sources_1'.
+ERROR: [Project 1-4421] No val for DA Elab Attr 'Dmv'
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-192] Failed to load run synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2025) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2025) not recognized by Vivado. 
+
+WARNING: [Project 1-231] Project 'Single_Cycle.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+save_project_as project_2 C:/Users/ASUS/project_2 -force
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'pipeline_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/project_2/project_2.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'pipeline_tb' in fileset 'sim_2'...
+INFO: [SIM-utils-43] Exported 'C:/Users/ASUS/project_2/project_2.sim/sim_2/behav/xsim/memfile.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/project_2/project_2.sim/sim_2/behav/xsim'
+"xvlog --incr --relax -prj pipeline_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/ALU_Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/Control_Unit_Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit_Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/Execute_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Execute_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/Main_Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_Decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/Mux_3_by_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3_by_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/PC_Module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Module
+WARNING: [VRFC 10-3248] data object 'PC' is already declared [C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/PC_Module.v:27]
+WARNING: [VRFC 10-9364] second declaration of 'PC' is ignored [C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/PC_Module.v:27]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/Pipeline_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/Register_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/Sign_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/decode__cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode__cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/fetch_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/hazard_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/memory_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/writeback_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module writeback_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.srcs/sim_2/new/pipeline_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/project_2/project_2.sim/sim_2/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/project_2/project_2.sim/sim_2/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline_tb_behav xil_defaultlib.pipeline_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline_tb_behav xil_defaultlib.pipeline_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'ImmSrc' [C:/Users/ASUS/project_2/project_2.srcs/sources_1/new/decode__cycle.v:83]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mux
+Compiling module xil_defaultlib.PC_Module
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.fetch_cycle
+Compiling module xil_defaultlib.Main_Decoder
+Compiling module xil_defaultlib.ALU_Decoder
+Compiling module xil_defaultlib.Control_Unit_Top
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.Sign_Extend
+Compiling module xil_defaultlib.decode__cycle
+Compiling module xil_defaultlib.Mux_3_by_1
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Execute_Cycle
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.memory_cycle
+Compiling module xil_defaultlib.writeback_cycle
+Compiling module xil_defaultlib.hazard_unit
+Compiling module xil_defaultlib.Pipeline_top
+Compiling module xil_defaultlib.pipeline_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipeline_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/project_2/project_2.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipeline_tb_behav -key {Behavioral:sim_2:Functional:pipeline_tb} -tclbatch {pipeline_tb.tcl} -view {C:/RiscV/Single_Cycle/Single_Cycle/pipeline_tb_behav1.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/RiscV/Single_Cycle/Single_Cycle/pipeline_tb_behav1.wcfg
+source pipeline_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+T=0 | PC=00000000 | Instr=00000000 | ALU=00000000 | WD=00000000 | RD= 0 | RegWrite=0
+T=15000 | PC=00000000 | Instr=00500293 | ALU=00000000 | WD=00000000 | RD= 0 | RegWrite=0
+T=25000 | PC=00000004 | Instr=00600313 | ALU=00000000 | WD=00000000 | RD= 0 | RegWrite=0
+T=35000 | PC=00000008 | Instr=0062e233 | ALU=00000005 | WD=00000000 | RD= 0 | RegWrite=0
+T=45000 | PC=0000000c | Instr=006283b3 | ALU=00000006 | WD=00000000 | RD= 5 | RegWrite=1
+T=55000 | PC=00000010 | Instr=40628433 | ALU=00000007 | WD=00000006 | RD= 6 | RegWrite=1
+T=65000 | PC=00000014 | Instr=0062f4b3 | ALU=00000006 | WD=00000006 | RD= 4 | RegWrite=1
+T=75000 | PC=00000018 | Instr=0062c533 | ALU=00000005 | WD=00000000 | RD= 7 | RegWrite=1
+T=85000 | PC=0000001c | Instr=0062a5b3 | ALU=00000004 | WD=00000006 | RD= 8 | RegWrite=1
+T=95000 | PC=00000020 | Instr=00628663 | ALU=00000003 | WD=00000006 | RD= 9 | RegWrite=1
+T=105000 | PC=00000024 | Instr=00500293 | ALU=00000001 | WD=00000006 | RD=10 | RegWrite=1
+T=115000 | PC=00000028 | Instr=00500313 | ALU=ffffffff | WD=00000006 | RD=11 | RegWrite=1
+T=125000 | PC=0000002c | Instr=00628463 | ALU=00000005 | WD=00000005 | RD=12 | RegWrite=0
+T=135000 | PC=00000030 | Instr=0062e233 | ALU=00000005 | WD=00000005 | RD= 5 | RegWrite=1
+T=145000 | PC=00000034 | Instr=006283b3 | ALU=00000000 | WD=00000005 | RD= 6 | RegWrite=1
+T=155000 | PC=00000032 | Instr=0062e233 | ALU=00000005 | WD=00000005 | RD= 8 | RegWrite=0
+T=165000 | PC=00000036 | Instr=006283b3 | ALU=0000000b | WD=00000006 | RD= 4 | RegWrite=1
+T=175000 | PC=0000003a | Instr=00502023 | ALU=00000005 | WD=00000005 | RD= 7 | RegWrite=1
+T=185000 | PC=0000003e | Instr=00002403 | ALU=0000000a | WD=00000005 | RD= 4 | RegWrite=1
+T=195000 | PC=00000042 | Instr=xxxxxxxx | ALU=00000000 | WD=00000005 | RD= 7 | RegWrite=1
+T=205000 | PC=00000046 | Instr=xxxxxxxx | ALU=00000000 | WD=00000000 | RD= 0 | RegWrite=0
+T=215000 | PC=0000004a | Instr=xxxxxxxx | ALU=xxxxxxxx | WD=xxxxxxxx | RD= 8 | RegWrite=1
+T=225000 | PC=xxxxxxxx | Instr=xxxxxxxx | ALU=xxxxxxxx | WD=xxxxxxxx | RD= x | RegWrite=x
+$finish called at time : 310 ns : File "C:/Users/ASUS/project_2/project_2.srcs/sim_2/new/pipeline_tb.v" Line 50
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipeline_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1189.754 ; gain = 29.180
+The simulator has terminated in an unexpected manner with exit code 1073807364.  Please review the simulation log (xsim.log) for details.

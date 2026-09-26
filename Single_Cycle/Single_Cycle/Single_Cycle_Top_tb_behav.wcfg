@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Single_Cycle_Top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Single_Cycle_Top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="98.926 ns"></ZoomEndTime>
+      <Cursor1Time time="20.620 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/Single_Cycle_Top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/PC_Top" type="array">
+      <obj_property name="ElementShortName">PC_Top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/RD_Instr" type="array">
+      <obj_property name="ElementShortName">RD_Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_Instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/RD1_Top" type="array">
+      <obj_property name="ElementShortName">RD1_Top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1_Top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/Imm_Ext_Top" type="array">
+      <obj_property name="ElementShortName">Imm_Ext_Top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm_Ext_Top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/ALUResult" type="array">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/ReadData" type="array">
+      <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/PCPlus4" type="array">
+      <obj_property name="ElementShortName">PCPlus4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/RD2_Top" type="array">
+      <obj_property name="ElementShortName">RD2_Top[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2_Top[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/SrcB" type="array">
+      <obj_property name="ElementShortName">SrcB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/Result" type="array">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/ResultSrc" type="logic">
+      <obj_property name="ElementShortName">ResultSrc</obj_property>
+      <obj_property name="ObjectShortName">ResultSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/ImmSrc" type="array">
+      <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/ALUControl_Top" type="array">
+      <obj_property name="ElementShortName">ALUControl_Top[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl_Top[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/PCSrc" type="logic">
+      <obj_property name="ElementShortName">PCSrc</obj_property>
+      <obj_property name="ObjectShortName">PCSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/PCNext" type="array">
+      <obj_property name="ElementShortName">PCNext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCNext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top/PCTarget" type="array">
+      <obj_property name="ElementShortName">PCTarget[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCTarget[31:0]</obj_property>
+   </wvobject>
+</wave_config>

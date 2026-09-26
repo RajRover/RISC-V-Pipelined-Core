@@ -1,0 +1,26 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.sim/sim_2/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sim_2/new/pipeline_tb.v,1774779006,verilog,,,,pipeline_tb,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/ALU.v,1772951593,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/ALU_Decoder.v,,ALU,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/ALU_Decoder.v,1772952827,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Control_Unit_Top.v,,ALU_Decoder,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Control_Unit_Top.v,1772951773,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Data_Memory.v,,Control_Unit_Top,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Data_Memory.v,1772911951,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Execute_Cycle.v,,Data_Memory,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Execute_Cycle.v,1774771972,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Instruction_Memory.v,,Execute_Cycle,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Instruction_Memory.v,1772914558,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Main_Decoder.v,,Instruction_Memory,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Main_Decoder.v,1772953344,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Mux.v,,Main_Decoder,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Mux.v,1772891402,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Mux_3_by_1.v,,Mux,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Mux_3_by_1.v,1774770807,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/PC_Adder.v,,Mux_3_by_1,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/PC_Adder.v,1772891405,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/PC_Module.v,,PC_Adder,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/PC_Module.v,1772892083,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Pipeline_top.v,,PC_Module,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Pipeline_top.v,1774772559,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Register_File.v,,Pipeline_top,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Register_File.v,1772911105,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Sign_Extend.v,,Register_File,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Sign_Extend.v,1773043026,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/decode__cycle.v,,Sign_Extend,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/Single_Cycle_Top.v,1772953548,verilog,,,,Single_Cycle_Top,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/decode__cycle.v,1774769315,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/fetch_cycle.v,,decode__cycle,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/fetch_cycle.v,1774768934,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/hazard_unit.v,,fetch_cycle,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/hazard_unit.v,1774772463,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/memory_cycle.v,,hazard_unit,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/memory_cycle.v,1774772315,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/writeback_cycle.v,,memory_cycle,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sources_1/new/writeback_cycle.v,1774772381,verilog,,C:/RiscV/Single_Cycle/Single_Cycle/Single_Cycle.srcs/sim_2/new/pipeline_tb.v,,writeback_cycle,,,D:/2025.1/Vivado/data/rsb/busdef,,,,,
